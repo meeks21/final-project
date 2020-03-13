@@ -5,13 +5,46 @@ box-sizing: border-box;
 }
 
 header{
-height: 150px;
+height: 160px;
+padding-top: 5px;
 background: orange;
+width: 100%;
+position: fixed;
+background-image: url(../images/bannerimage.jpg)
 }
 
-Nav{
+h1{
+float: right;
+clear: both;
+text-align: center;
+line-height: 160px;
+}
+
+nav{
 height: 50px;
 background: red;
+line-height: 50px;
+}
+
+nav ul{
+width: 1000px;
+margin: 0 auto;
+/*text-align: center;*/
+}
+
+nav li{
+list-style-type: none;
+float: left;
+padding-left: 60px;
+text-align: center;
+}
+
+nav li{
+display: block;
+}
+
+nav a{
+text-decoration: none;
 }
 
 #wrapper{
@@ -45,7 +78,13 @@ footer{
 height: 150px;
 background: orange;
 clear: both;
+}
 
+footer li{
+list-style-type: none;
+float: left;
+padding-left: 60px;
+line-height: 150px;
 }
 
 
