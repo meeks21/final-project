@@ -20,32 +20,34 @@ text-align: center;
 line-height: 160px;
 }
 
-nav{
+#primary{
 height: 50px;
 background: red;
 line-height: 50px;
 }
 
-nav ul{
+#primary ul{
 width: 1000px;
 margin: 0 auto;
+}
+
+#primary li{
+list-style-type: none;
+width: 200px;
+float: left;
+/*padding-left: 40px;*/
 /*text-align: center;*/
 }
 
-nav li{
-list-style-type: none;
-float: left;
-padding-left: 60px;
-text-align: center;
-}
-
-nav li{
+#primary a{
+text-decoration: none;
 display: block;
 }
 
-nav a{
-text-decoration: none;
+#primary a:hover{
+background: pink;
 }
+
 
 #wrapper{
 width: 940px;
@@ -54,13 +56,13 @@ margin: 0 auto 0 auto;
 }
 
 #hero{
-width: auto;
-height: 300px;
+height: 50px;
+width: auto;    
 background: gray;
 }
 
 main{
-height: 600px;
+height: 940px;
 width: 48.93%;
 background: maroon;
 margin-right: 0.02%;
