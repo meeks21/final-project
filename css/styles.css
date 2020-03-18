@@ -1,90 +1,105 @@
-*{
+* {
 Padding: 0;
 Margin: 0;
 box-sizing: border-box;
 }
 
-header{
-height: 160px;
+header {
+/*height: 160px;*/
 padding-top: 5px;
 background: orange;
 width: 100%;
+top: 0;
+left 0;
 position: fixed;
-background-image: url(../images/bannerimage.jpg)
 }
 
-h1{
+.inner {
+width: 940px;
+background: tan;
+margin: 0 auto 0 auto;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+h1 {
 float: right;
-clear: both;
 text-align: center;
 line-height: 160px;
 }
 
-nav{
+#primary {
 height: 50px;
 background: red;
 line-height: 50px;
+clear: both;
 }
 
-nav ul{
+#primary ul {
 width: 1000px;
 margin: 0 auto;
-/*text-align: center;*/
 }
 
-nav li{
+#primary li {
 list-style-type: none;
+width: 20%;
 float: left;
-padding-left: 60px;
+/*padding-left: 40px;*/
 text-align: center;
 }
 
-nav li{
+#primary a {
+text-decoration: none;
 display: block;
 }
 
-nav a{
-text-decoration: none;
+#primary a:hover{
+background: pink;
 }
 
-#wrapper{
+#wrapper {
 width: 940px;
+max-width: 1100px;
 background: tan;
-margin: 0 auto 0 auto;
+margin: 215px auto 0px auto;
 }
 
-#hero{
-width: auto;
-height: 300px;
-background: gray;
-}
-
-main{
-height: 600px;
+main {
+height: 940px;
 width: 48.93%;
 background: maroon;
 margin-right: 0.02%;
 float: left;
 }
 
-aside{
+aside {
 height: 600px;
 width: 48.93%;
 float: right;
 background: green;
 }
 
-footer{
-height: 150px;
+footer {
+height: 100px;
 background: orange;
 clear: both;
 }
 
-footer li{
+
+footer li {
 list-style-type: none;
+width: 20%;
 float: left;
-padding-left: 60px;
-line-height: 150px;
+/*padding-left: 60px;*/
+line-height: 100px;
 }
 
+footer img {
+height: 50px;
+}
+
+/*blueberry rotating banner css*/
+.blueberry { 
+max-width: 960px;
+}
 
