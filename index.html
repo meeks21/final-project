@@ -3,14 +3,57 @@
 <head>
 <meta charset="UTF-8">
 <title>Blackbox Studio</title>
+<!--
+/*
+ * jQuery Blueberry Slider v0.4 BETA
+ * http://marktyrrell.com/labs/blueberry/
+ *
+ * Copyright (C) 2011, Mark Tyrrell <me@marktyrrell.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+-->
+<link href="css/blueberry.css" type="text/css" rel="stylesheet">
 <link href="css/styles.css" type="text/css" rel="stylesheet">
+    
+    
+    
+<!--blueberry javascript library link-->
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="js/jquery.blueberry.js"></script>
+
+<script>
+$(window).load(function() {
+	$('.blueberry').blueberry();
+});
+</script>
+    
+<!--end of script-->
+    
+    
+    
 </head>
     
-<body>
-    
+<body class="home">
+<!--   header and navigation  -->
     <header>
-        <img class="logo" src="images/Webp.net-resizeimage.png" alt="logo">
-        <h1>Blackbox Sound Studio</h1>
+        <div class="inner">
+            <a href="index.html"><img class="logo" src="images/Webp.net-resizeimage%20(2).png" alt="logo"></a>
+            <h1>Blackbox Sound Studio</h1>
+        </div>    
        <nav id="primary">
          <ul>
             <li><a href="index.html">Home</a></li>
@@ -21,10 +64,38 @@
         </ul>
     </nav>
     </header>
-
+<!--   end of header and navigation  -->
+    
+<!--   beginning of the wrapper -->
     <div id="wrapper">
    
-    <div id="hero"></div>
+<!--   beginning of blueberry image slider-->
+    
+    <div class="blueberry">
+      <ul class="slides">
+        <li><img src="images/rbanner1.jpg" alt="banner1"></li>
+        <li><img src="images/rbanner2.jpg" alt="banner2"></li>
+        <li><img src="images/rbanner3.jpg" alt="banner3"></li>
+        <li><img src="images/rbanner4.jpg" alt="banner4"></li>
+        <li><img src="images/rbanner5.jpg" alt="banner5"></li>
+        <li><img src="images/rbanner6.jpg" alt="banner6"></li>
+        <li><img src="images/rbanner7.jpg" alt="banner7"></li>
+        <li><img src="images/rbanner8.jpg" alt="banner8"></li>
+        <li><img src="images/rbanner9.jpg" alt="banner9"></li>
+        <li><img src="images/rbanner10.jpg" alt="banner10"></li>
+        <li><img src="images/rbanner11.jpg" alt="banner11"></li>
+        <li><img src="images/rbanner12.jpg" alt="banner12"></li>
+        <li><img src="images/rbanner13.jpg" alt="banner13"></li>
+        <li><img src="images/rbanner15.jpg" alt="banner15"></li>
+        <li><img src="images/rbanner16.jpg" alt="banner16"></li>
+        <li><img src="images/rbanner17.jpg" alt="banner17"></li>
+        <li><img src="images/rbanner18.jpg" alt="banner18"></li>
+        <li><img src="images/rbanner19.jpg" alt="banner19"></li>
+      </ul>
+    </div> 
+   
+<!--   end of blueberry       -->
+        
     <main></main>
     <aside></aside>
     
@@ -35,15 +106,18 @@
     
     
     </div> 
+<!-- end of wrapper-->
     
     <footer>
-        <ul>
-            <li>Copyright &copy; 2020</li>
-            <li>All rights Reserved</li>
-            <li><a href="../index.html">Web Design by Kemar</a></li>
-            <li><a href="#">Valid</a></li>
-        </ul>
-    
+        <div class="inner">
+            <ul>
+                <li>Copyright &copy; 2020</li>
+                <li>All rights Reserved</li>
+                <li><a href="../index.html">Web Design by Kemar</a></li>
+                <li><a href ="https://validator.w3.org/check?uri=referer"><img id="valid" src="images/html5logo.png" alt="logo"></a></li>
+            </ul>
+        </div>
     </footer>
+    
 </body>
 </html>
