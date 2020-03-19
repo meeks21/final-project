@@ -5,13 +5,14 @@ box-sizing: border-box;
 }
 
 header {
-/*height: 160px;*/
+height: 160px;
 padding-top: 5px;
 background: orange;
 width: 100%;
 top: 0;
 left 0;
 position: fixed;
+z-index: 5;
 }
 
 .inner {
@@ -25,7 +26,11 @@ padding-right: 10px;
 h1 {
 float: right;
 text-align: center;
-line-height: 160px;
+line-height: 100px;
+}
+
+#logo{
+height: 100px;
 }
 
 #primary {
@@ -60,8 +65,8 @@ background: pink;
 #wrapper {
 width: 940px;
 max-width: 1100px;
-background: tan;
-margin: 215px auto 0px auto;
+/*background: tan;*/
+margin: 160px auto 0px auto;
 }
 
 main {
