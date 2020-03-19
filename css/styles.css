@@ -12,6 +12,7 @@ width: 100%;
 top: 0;
 left 0;
 position: fixed;
+z-index: 5;
 }
 
 .inner {
@@ -28,6 +29,11 @@ text-align: center;
 line-height: 160px;
 }
 /*************main nav bar***********************/
+aside.inner{
+height 200px
+width: 48.93%;
+color:burlywood;
+}
 #primary {
 height: 50px;
 background: red;
@@ -57,11 +63,13 @@ display: block;
 background: pink;
 }
 /*****************start of second nav*************/
+
 #secondary li{
 line-height: 40px;
 height: 40px;
 list-style-type: none;
 }
+
 /*******************wrapper***********************/
 #wrapper {
 width: 940px;
