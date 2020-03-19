@@ -33,6 +33,11 @@ line-height: 100px;
 height: 100px;
 }
 /*************main nav bar***********************/
+aside.inner{
+height 200px
+width: 48.93%;
+color:burlywood;
+}
 #primary {
 height: 50px;
 background: red;
@@ -62,11 +67,13 @@ display: block;
 background: pink;
 }
 /*****************start of second nav*************/
+
 #secondary li{
 line-height: 40px;
 height: 40px;
 list-style-type: none;
 }
+
 /*******************wrapper***********************/
 #wrapper {
 width: 940px;
