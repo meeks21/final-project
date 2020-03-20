@@ -4,6 +4,8 @@ Margin: 0;
 box-sizing: border-box;
 }
 
+/****************** header ***********************/
+
 header {
 height: 160px;
 padding-top: 5px;
@@ -15,10 +17,10 @@ position: fixed;
 z-index: 5;
 }
 
-.inner {
+header .inner {
 width: 940px;
 background: tan;
-margin: 0 auto 0 auto;
+margin: 0 auto 5px auto;
 padding-left: 10px;
 padding-right: 10px;
 }
@@ -32,12 +34,9 @@ line-height: 100px;
 #logo{
 height: 100px;
 }
-/*************main nav bar***********************/
-aside.inner{
-height 200px
-width: 48.93%;
-color:burlywood;
-}
+
+/************* main nav bar ***********************/
+
 #primary {
 height: 50px;
 background: red;
@@ -66,36 +65,83 @@ display: block;
 #primary a:hover{
 background: pink;
 }
-/*****************start of second nav*************/
 
+/***************** second nav bar *****************/
+
+aside .inner{
+height: 150px;
+width: 300px;
+background-color: white;
+margin: 0 auto;
+}
+#secondary ul{
+margin-top: 20px;
+}
 #secondary li{
-line-height: 40px;
-height: 40px;
+line-height: 50px;
+height: 50px;
 list-style-type: none;
+
 }
 
-/*******************wrapper***********************/
+#secondary a {
+text-decoration: none;
+display:block;
+padding-left: 20px;
+}
+
+#secondary a:hover{
+background: pink; 
+}
+
+
+/******************* wrapper ***********************/
+
 #wrapper {
 width: 940px;
 max-width: 1100px;
-/*background: tan;*/
 margin: 160px auto 0px auto;
 }
 
 main {
-height: 940px;
-width: 48.93%;
+width: 580px;
 background: maroon;
 margin-right: 0.02%;
+margin-bottom: 20px;
+padding-bottom: 20px;
 float: left;
 }
 
-aside {
-height: 600px;
-width: 48.93%;
-float: right;
-background: green;
+main .inner{
+height: 100px;
+width: 100%;
+background: tan;
+line-height: 100px;
+padding-left: 20px;
 }
+
+main p{
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+line-height: 1.4;
+}
+
+input[type="submit"]{
+width:auto;
+margin-top: 10px;
+margin-left: 20px;
+}
+
+aside {
+height: 300px;
+width: 340px;
+float: right;
+background-image: url(../images/technology-music.jpg);
+overflow: hidden;
+}
+
+/********************* footer ***********************/
 
 footer {
 height: 100px;
@@ -103,20 +149,26 @@ background: orange;
 clear: both;
 }
 
+footer .inner{
+width: 940px;
+margin: 0 auto 0 auto;
+background-color: red;
+}
 
 footer li {
 list-style-type: none;
 width: 20%;
 float: left;
-/*padding-left: 60px;*/
 line-height: 100px;
+padding-left: 40px;
 }
 
-footer img {
-height: 50px;
+#valid {
+height: 35px;
 }
 
-/*blueberry rotating banner css*/
+/***************** blueberry rotating banner css****/
+
 .blueberry { 
 max-width: 960px;
 }
