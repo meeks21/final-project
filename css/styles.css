@@ -7,13 +7,14 @@ box-sizing: border-box;
 body{
 background-image: url(../images/top-view-of-fern-leaves-3473569.jpg);
 font-size: 100%;
-max-width: 100%;
+
 }
 
 /****************** header ***********************/
 
 header{
 height: 160px;
+margin-bottom: 20px;
 padding-top: 5px;
 background: white;
 width: 100%;
@@ -154,9 +155,66 @@ aside{
 height: 300px;
 width: 340px;
 float: right;
-background-image: url(../images/technology-music.jpg);
 overflow: hidden;
 }
+.first{
+background-image: url(../images/technology-music.jpg);
+}
+.second{
+margin-top: 20px;
+border: black solid 2px;
+background-image: url(../images/Synths_EL.jpg)
+}
+/********************* rows *************************/
+
+.row{
+height: 340px;
+width: 100%;
+/*background: green;*/
+margin-bottom: 20px;
+clear: both;
+padding-top: 40px;
+/*overflow: hidden;*/
+}
+
+.third{
+height: 300px;
+width: 300px;
+background: #485359;
+float: left;
+border: solid black 1px;
+font-family: 'nobilebold_italic';
+}
+
+.one{
+margin-right: 20px;
+}
+
+.two{
+margin-right: 20px;
+}
+
+.inner2{
+text-align: center;
+height: 50px;
+background: #011F26;
+color: #485359;
+}
+
+.inner2 p{
+color: #011F26;
+padding: 20px 20px 5px 20px;
+font-size: .9em;
+}
+
+.inner2 a{
+color: #00090D;
+}
+
+h3{
+line-height: 50px;
+}
+
 
 /********************* footer ***********************/
 
