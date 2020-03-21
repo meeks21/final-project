@@ -4,12 +4,18 @@ Margin: 0;
 box-sizing: border-box;
 }
 
+body{
+background-image: url(../images/top-view-of-fern-leaves-3473569.jpg);
+font-size: 100%;
+max-width: 100%;
+}
+
 /****************** header ***********************/
 
-header {
+header{
 height: 160px;
 padding-top: 5px;
-background: orange;
+background: white;
 width: 100%;
 top: 0;
 left 0;
@@ -17,18 +23,20 @@ position: fixed;
 z-index: 5;
 }
 
-header .inner {
+header .inner{
 width: 940px;
-background: tan;
+background: white;
 margin: 0 auto 5px auto;
 padding-left: 10px;
 padding-right: 10px;
 }
 
-h1 {
+h1{
 float: right;
 text-align: center;
 line-height: 100px;
+font-family: 'amaticbold';
+font-size: 3em;
 }
 
 #logo{
@@ -37,19 +45,19 @@ height: 100px;
 
 /************* main nav bar ***********************/
 
-#primary {
+#primary{
 height: 50px;
-background: red;
+background: black;
 line-height: 50px;
 clear: both;
 }
 
-#primary ul {
+#primary ul{
 width: 1000px;
 margin: 0 auto;
 }
 
-#primary li {
+#primary li{
 list-style-type: none;
 width: 20%;
 float: left;
@@ -57,14 +65,17 @@ float: left;
 text-align: center;
 }
 
-#primary a {
+#primary a{
 text-decoration: none;
 display: block;
+color: #485359;
+font-family: 'nobileregular';
 }
 
 #primary a:hover{
-background: pink;
+background: #111E26;
 }
+
 
 /***************** second nav bar *****************/
 
@@ -73,49 +84,53 @@ height: 150px;
 width: 300px;
 background-color: white;
 margin: 0 auto;
+font-family: 'nobilemedium_italic';
 }
+
 #secondary ul{
 margin-top: 20px;
 }
+
 #secondary li{
 line-height: 50px;
 height: 50px;
 list-style-type: none;
-
 }
 
-#secondary a {
+#secondary a{
 text-decoration: none;
 display:block;
 padding-left: 20px;
+color: #00090D;
 }
 
 #secondary a:hover{
-background: pink; 
+background: #485359; 
 }
 
 
 /******************* wrapper ***********************/
 
-#wrapper {
+#wrapper{
 width: 940px;
 max-width: 1100px;
 margin: 160px auto 0px auto;
 }
 
-main {
+main{
 width: 580px;
-background: maroon;
+background: #485359;
 margin-right: 0.02%;
 margin-bottom: 20px;
 padding-bottom: 20px;
 float: left;
+font-family: 'source_sans_proregular';
 }
 
 main .inner{
 height: 100px;
 width: 100%;
-background: tan;
+background: #273940;
 line-height: 100px;
 padding-left: 20px;
 }
@@ -127,13 +142,15 @@ padding-top: 20px;
 line-height: 1.4;
 }
 
-input[type="submit"]{
-width:auto;
-margin-top: 10px;
-margin-left: 20px;
+main a{
+color: #011F26;
 }
 
-aside {
+h2{
+font-family: 'nobilebold_italic';
+}
+
+aside{
 height: 300px;
 width: 340px;
 float: right;
@@ -143,33 +160,108 @@ overflow: hidden;
 
 /********************* footer ***********************/
 
-footer {
+footer{
 height: 100px;
-background: orange;
-clear: both;
+background: white;
+clear: both; 
+font-family: 'source_sans_proregular';
 }
 
 footer .inner{
 width: 940px;
-margin: 0 auto 0 auto;
+margin: 0px auto 0 auto;
 background-color: red;
 }
 
-footer li {
+footer li{
 list-style-type: none;
 width: 20%;
 float: left;
 line-height: 100px;
-padding-left: 40px;
+padding-left: 30px;
+margin-left: 40px;
 }
 
-#valid {
-height: 35px;
+#valid{
+height: 45px;
 }
 
 /***************** blueberry rotating banner css****/
 
-.blueberry { 
+.blueberry{ 
 max-width: 960px;
+}
+/****************************************************/
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('../fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amaticbold';
+    src: url('../fonts/amatic-bold-webfont.woff2') format('woff2'),
+         url('../fonts/amatic-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amatic_scregular';
+    src: url('../fonts/amaticsc-regular-webfont.woff2') format('woff2'),
+         url('../fonts/amaticsc-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nobileregular';
+    src: url('../fonts/nobile-bold-webfont.woff2') format('woff2'),
+         url('../fonts/nobile-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nobilebold_italic';
+    src: url('../fonts/nobile-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/nobile-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nobileitalic';
+    src: url('../fonts/nobile-italic-webfont.woff2') format('woff2'),
+         url('../fonts/nobile-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nobilemedium';
+    src: url('../fonts/nobile-medium-webfont.woff2') format('woff2'),
+         url('../fonts/nobile-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nobilemedium_italic';
+    src: url('../fonts/nobile-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/nobile-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
