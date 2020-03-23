@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Blackbox Studio</title>
+
+<link href="css/styles.css" type="text/css" rel="stylesheet">
+        
+</head>
+    
+<body class="home">
+<!--   header and navigation  -->
+    <header>
+        <div class="inner">
+            <a href="index.html"><img id="logo" src="images/Webp.net-resizeimage%20(2).png" alt="logo"></a>
+            <h1>Blackbox Sound Studio.</h1>
+        </div>    
+       <nav id="primary">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="staff.html">Staff</a></li>
+            <li><a href="book_now.html">Book Now</a></li>
+        </ul>
+    </nav>
+    </header>
+<!--   end of header and navigation  -->
+    
+<!--   beginning of the wrapper -->
+    <div id="wrapper">
+   
+    
+    <main>
+          <div class="inner">
+                <h2>Headline 2</h2>
+            </div>
+        <form action="formhandler.php" method="post">
+          
+            <fieldset>
+                <legend>Create your next project with us!</legend>
+                <label>Name</label>
+                    <input type="text" name="name" placeholder="your name">
+                <label>Email</label>
+                    <input type="email" name="email" placeholder="your email">
+                <label>Services</label>
+                    <ul>
+                        <li><input type="checkbox" name="services" value="tracking">Tracking Session</li>
+                        <li><input type="checkbox" name="services" value="mixing">Mixing Session</li>
+                        <li><input type="checkbox" name="services" value="mastering">Mastering Session</li>
+                        <li><input type="checkbox" name="services" value="production">Production and Beats</li>
+                        <li><input type="checkbox" name="services" value="artist">Artist Development</li>
+                        <li><input type="checkbox" name="services" value="music_video">Music Videos</li>
+                    </ul>
+
+                <label for="time">Studio Time</label>
+                            <select id="studio">
+                                <option value="two">Two Hours (minimum)</option>
+                                <option value="three">Three Hours</option>
+                                <option value="four">Four Hours</option>
+                                <option value="five">Five Hours</option>
+                                <option value="six+">Six Hours</option>
+                                <option value="twelve+">Day Sessions</option>
+                            </select>
+
+                <label id="comments">Comments</label>
+                <input type="submit" name="submit" value="Pay Now">
+                            <textarea name="comments" placeholder="comments here"></textarea>
+            </fieldset>
+        </form>
+    </main>
+    <aside class="first">
+        
+    </aside>  
+    </div> 
+<!-- end of wrapper-->
+    
+    <footer>
+        <div class="inner">
+            <ul>
+                <li>Copyright &copy; 2020</li>
+                <li>All rights Reserved</li>
+                <li><a href="../index.html">Web Design by Kemar</a></li>
+                <li><a href="https://validator.w3.org/check?uri=referer"><img id="valid" src="images/html5logo.png" alt="logo"></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
