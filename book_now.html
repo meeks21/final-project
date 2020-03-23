@@ -5,10 +5,10 @@
 <title>Blackbox Studio</title>
 
 <link href="css/styles.css" type="text/css" rel="stylesheet">
-        
+       
 </head>
     
-<body class="home">
+<body class="book_now">
 <!--   header and navigation  -->
     <header>
         <div class="inner">
@@ -33,12 +33,12 @@
     
     <main>
           <div class="inner">
-                <h2>Headline 2</h2>
+                <h2>Book a session with us today</h2>
             </div>
         <form action="formhandler.php" method="post">
           
             <fieldset>
-                <legend>Create your next project with us!</legend>
+                <legend>Lets get to work! </legend>
                 <label>Name</label>
                     <input type="text" name="name" placeholder="your name">
                 <label>Email</label>
@@ -54,23 +54,34 @@
                     </ul>
 
                 <label for="time">Studio Time</label>
-                            <select id="studio">
-                                <option value="two">Two Hours (minimum)</option>
-                                <option value="three">Three Hours</option>
-                                <option value="four">Four Hours</option>
-                                <option value="five">Five Hours</option>
-                                <option value="six+">Six Hours</option>
-                                <option value="twelve+">Day Sessions</option>
-                            </select>
+                        <select id="studio">
+                            <option value="two">Two Hours (minimum)</option>
+                            <option value="three">Three Hours</option>
+                            <option value="four">Four Hours</option>
+                            <option value="five">Five Hours</option>
+                            <option value="six+">Six Hours</option>
+                            <option value="twelve+">Day Sessions</option>
+                         </select>
 
                 <label id="comments">Comments</label>
-                <input type="submit" name="submit" value="Pay Now">
-                            <textarea name="comments" placeholder="comments here"></textarea>
+                            
+                    <textarea name="comments" placeholder="comments here"></textarea>
+                
+                <input type="submit" name="submit" value="Confirm">
+                
             </fieldset>
         </form>
     </main>
-    <aside class="first">
-        
+    <aside class="map">
+        <div class="embed-container">
+            <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.231849194679!2d-84.06820448528246!3d9.9146386772187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e30cecdd94b5%3A0xd9bc560f33e6d419!2sAv%2042A%2C%20Parque%20Mendez%2C%20San%20Jos%C3%A9%2C%20Costa%20Rica!5e0!3m2!1sen!2sus!4v1584946092799!5m2!1sen!2sus' width='600' height='450' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe>
+        </div>  
+        <div class="innermap">
+            <h3>Black Box Studio</h3>
+            <p>Parque Mendez, San José Costa Rica</p>
+           
+        </div>
+         <img src="images/drummer.jpg" alt="drummer">
     </aside>  
     </div> 
 <!-- end of wrapper-->
