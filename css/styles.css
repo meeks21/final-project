@@ -62,7 +62,6 @@ margin: 0 auto;
 list-style-type: none;
 width: 20%;
 float: left;
-/*padding-left: 40px;*/
 text-align: center;
 }
 
@@ -174,11 +173,10 @@ width: 100%;
 margin-bottom: 20px;
 clear: both;
 padding-top: 40px;
-/*overflow: hidden;*/
 }
 
 .third{
-height: 300px;
+height: 280px;
 width: 300px;
 background: #485359;
 float: left;
@@ -203,7 +201,7 @@ color: #485359;
 
 .inner2 p{
 color: #011F26;
-padding: 20px 20px 5px 20px;
+padding: 20px 20px 20px 20px;
 font-size: .9em;
 }
 
@@ -214,6 +212,58 @@ color: #00090D;
 h3{
 line-height: 50px;
 }
+
+/********************* form *************************/
+
+form{
+max-width: 100%;
+
+}
+
+fieldset{
+/*border: none;*/
+width: 460px;
+padding-left: 10px;
+padding-right: 10px;
+margin: 0 auto 0 auto;
+/*border: none;*/
+}
+
+legend{
+margin-bottom: 20px;
+}
+
+label {
+display:block;
+margin-bottom: 5px;
+}
+
+input{
+margin-bottom: 10px;
+width: 80%;
+}
+form ul{
+margin-left: 20px;
+margin-bottom: 20px;
+}
+form li{
+list-style-type: none;
+
+}
+input[type="checkbox"]{
+width: auto;
+height: auto;
+margin-right: 5px;
+}
+
+textarea{
+width: 100%;
+resize: none;
+height: 150px;
+margin-bottom: 10px;
+font-size: 1.1em;
+}
+
 
 
 /********************* footer ***********************/
