@@ -92,7 +92,7 @@ background: #111E26;
 
 /***************** second nav bar *****************/
 
-aside .inner{
+.aside_inner{
 height: 150px;
 width: 300px;
 background-color: white;
@@ -141,12 +141,40 @@ float: left;
 font-family: 'source_sans_proregular';
 }
 
-main .inner{
+.inner{
 height: 100px;
 width: 100%;
 background: #273940;
 line-height: 100px;
 padding-left: 20px;
+}
+
+.studio_main_inner p{
+margin-bottom: 20px;
+margin-top: 0px;   
+}
+
+.studio_main_inner h4{
+padding-left: 20px;
+margin-top: 10px;
+}
+
+.clients_main_inner{
+width: 260px;
+height: 620px;
+margin-right: 20px;
+float: left;
+padding-left: 10px;
+font-family: 'source_sans_proregular';
+}
+
+.clients_main_inner ul{
+margin-top: 10px;    
+}
+
+.clients_main_inner li{
+list-style-type: circle;
+margin-left: 20px;
 }
 
 main p{
@@ -171,18 +199,21 @@ overflow: hidden;
 margin-top: 20px;
 }
 
-.first{
+.aside_first{
 background-image: url(../images/technology-music.jpg);
 height: 300px;
 }
+
 .second{
 border: black solid 2px;
 background-image: url(../images/Synths_EL.jpg);
 height: 300px;
 }
+
 .map{
 height: 710px;
 }
+
 .innermap{
 background-color: #485359;
 padding-bottom: 10px;
@@ -197,6 +228,9 @@ font-family: 'nobilebold_italic';
 font-family: 'source_sans_proregular';
 }
 
+.studio_aside{
+height: 300px;
+}
 
 /********************* rows *************************/
 
@@ -244,9 +278,38 @@ color: #00090D;
 
 h3{
 line-height: 50px;
-margin-top: 20px;
 }
 
+h4{
+margin-bottom: 20px;
+}
+
+.row2{
+height: 240px;
+margin-bottom: 10px;
+}
+
+.e_third{
+width: 220px;
+height: 240px;
+float: left;
+padding-left: 30px;
+padding-right: 10px;
+padding-top: 10px;
+}
+
+.e_third li{
+list-style-type:circle;
+
+}
+
+.four{
+margin-right: 20px;
+}
+
+.five{
+margin-right: 20px;
+}
 /********************* form *************************/
 
 form{
@@ -342,19 +405,38 @@ padding-top: 0px;
 padding-bottom: 10px;
 }
 
+/********************* equipment ********************/
+
+.equip_main{
+width: 700px;
+}
+
+/********************* our studio page ****************/
+
+#hero{
+/*background: blue;*/
+width: 940;
+}
+
+.blueprint{
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
 /********************* footer ***********************/
 
 footer{
 height: 100px;
-background: white;
 clear: both; 
 font-family: 'source_sans_proregular';
+background: white;
 }
 
 footer .inner{
 width: 940px;
-margin: 0px auto 0 auto;
-background-color: red;
+margin: 0 auto 0 auto;
+background: white;
 }
 
 footer li{
